@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>HELP</title>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans&display=swap" rel="stylesheet">
+
+
+</head>
+
+<body>
+  <style>
+    body{
+    font-family: 'Work Sans', sans-serif;
+    position: center;
+}
+.faq-heading{
+    border-bottom: #777;
+    padding: 20px 60px;
+}
+.faq-container{
+display: flex;
+justify-content: fill;
+flex-direction: column;
+
+
+}
+.hr-line{
+  width: 90%;
+  height:fill;
+  margin: auto;
+
+}
+.faq-page {
+    color: #444;
+    cursor: pointer;
+    padding: 30px 20px;
+    width: 90%;
+    height: 40px;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    margin: auto;
+
+}
+.faq-body{
+    margin: auto;
+   width: 50%;
+   padding: auto;
+   font-family: 'Times New Roman';
+
+}
+
+
+.active,
+.faq-page:hover {
+    background-color: #F9F9F9;
+}
+
+
+.faq-body {
+    padding: 0 18px;
+    background-color: white;
+    display: none;
+    overflow: hidden;
+
+}
+
+.faq-page:after {
+    content: '\02795';
+    font-size: 13px;
+    color: #777;
+    float: right;
+    margin-left: 5px;
+}
+
+.active:after {
+    content: "\2796";
+
+}
+  </style>
+    <main>
+      <br><br>
+      <h1><center>Help</center></h1>
+
+      <p style="color:grey"><center>Answers to common questions, expert advice and a way to provide feedback</center></p>
+
+        <h3 class="faq-heading">Frequently Asked Questions</h2>
+
+        <section class="faq-container">
+            <div class="faq-one">
+
+                <!-- faq question -->
+                <h4 class="faq-page">How can we change/update our education details?</h1>
+
+                <!-- faq answer -->
+                <div class="faq-body">
+                    <p>You can edit your education details by clicking on "Edit My Education" button just below "My Education". </p>
+                </div>
+            </div>
+
+
+            <div class="faq-two">
+
+                <!-- faq question -->
+                <h4 class="faq-page">Can I really change my password once i have set it?</h1>
+
+                <!-- faq answer -->
+
+                <div class="faq-body">
+                    <p>Yes! You can change the password as many times as you need.</p>
+                </div>
+            </div>
+
+
+
+            <div class="faq-three">
+
+                <!-- faq question -->
+<h4 class="faq-page">Do you offer complete data confidentiality?</h1>
+
+                <!-- faq answer -->
+                <div class="faq-body">
+                    <p>As an organization ourselves, we understand the importance and necessity of company data confidentiality. Therefore, we also offer the promise of keeping company data classified.  </p>
+                </div>
+            </div>
+            <div class="faq-four">
+
+              <!-- faq question -->
+<h4 class="faq-page">Do I have to pay to use this platform?</h1>
+
+              <!-- faq answer -->
+              <div class="faq-body">
+                  <p>No! You can use our website for free. This is a non-profit website! </p>
+              </div>
+          </div>
+
+        </section>
+    </main>
+
+    <H3 class="faq-heading">Give us feedback or any complaints</H3>
+    <FORM action="mailto:2100031089@kluniversity.in" method="post" enctype="text/plain" class="faq-heading">
+      First Name : <INPUT type="text" name="firstname" placeholder="Enter name here">
+      Second Name : <INPUT type="text" name="secondname"  placeholder="Enter surname here">
+      <BR>
+      <br>
+
+      email: <INPUT type="email" name="mail" placeholder="e-mail address">
+      <BR>
+      <BR>
+        Comment/Questions? :<BR>
+        <TEXTAREA rows="6" cols="50" name="commentfield"></TEXTAREA>
+        <BR>
+
+
+        <BR>
+        <INPUT TYPE="submit" value="Send Feedback">
+
+    </FORM>
+<script >var faq = document.getElementsByClassName("faq-page");
+    var i;
+
+    for (i = 0; i < faq.length; i++) {
+        faq[i].addEventListener("click", function () {
+            /* Toggle between adding and removing the "active" class,
+            to highlight the button that controls the panel */
+            this.classList.toggle("active");
+
+            /* Toggle between hiding and showing the active panel */
+            var body = this.nextElementSibling;
+            if (body.style.display === "block") {
+                body.style.display = "none";
+            } else {
+                body.style.display = "block";
+            }
+        });
+    }</script>
+</body>
+</html>

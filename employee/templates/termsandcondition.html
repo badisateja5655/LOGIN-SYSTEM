@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="container">
+  <h3>Terms & Conditions Apply</h3>
+  <p>The Consultancy Requirements Are Below</p>
+  <ul class="nav nav-pills nav-stacked">
+    <li class="active"><a href="#">Terms and Conditions</a></li>
+    <li><a href="#">Agreement for Offering Online Seminars Due to COVID-19/Coronavirus</a></li>
+    <li><a href="#">Non-Disclosure Agreement (NDA)</a></li>
+    <li><a href="#">Privacy Policy For Website Or Mobile App</a></li>
+    <li><a href="#">Copyright Assignment</a></li>
+    <li><a href="#">Intellectual Property Permission Letter</a></li>
+    <li><a href="#">Intellectual Property Release Form</a></li>
+    <li><a href="#">Model Release Form</a></li>
+    <li><a href="#">Personal Data Deletion Request</a></li>
+    <li><a href="#">Licensing Agreement</a></li>
+    <li><a href="#">Online Advertising Agreement</a></li>
+    <li><a href="#">Non-Disclosure Agreement (NDA)</a></li>
+    <li><a href="#">Refund Policy</a></li>
+
+  </ul>
+</div>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style>
+  .btn-default {
+      border-radius: 0;
+   }
+  </style>
+</head>
+<body>
+
+<div class="container">
+
+ <a href="{% url 'emp_home' %}" class="list-group-item list-group-item-warning list-group-item-action {% if request.path == '/termsandcondition/'%} active {% endif%}">Back To DashBoard</a>
+
+
+</div>
+
+</body>
+</html>
+
+
+

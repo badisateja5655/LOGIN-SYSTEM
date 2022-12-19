@@ -1,0 +1,72 @@
+{% include 'header.html' %}
+{% load static %}
+
+
+
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("{% static 'images/Main1.jpg' %}");
+  height: 100%;
+  background-position: center;
+  background-repeat: repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 40%;
+  left: 25%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.hero-text button {
+  border: plane;
+  outline: 0;
+  display: inline-block;
+  padding: 16px 25px;
+  color: white;
+  background-color: transparent;
+  text-align: center;
+  cursor: pointer;
+  margin: 4px 2px;
+  border-radius:20%;
+}
+
+.hero-text button:hover {
+  background-color:  #33b249;
+  color: white;
+}
+</style>
+</head>
+<script type="text/javascript" id="zsiqchat">var $zoho=$zoho || {};$zoho.salesiq = $zoho.salesiq || {widgetcode: "185aa0c2daf2c3a770df5066c8325a712118b4d99fe34cfaa0fe4f796087e9a644825a783fddf8a898569d8b648340be", values:{},ready:function(){}};var d=document;s=d.createElement("script");s.type="text/javascript";s.id="zsiqscript";s.defer=true;s.src="https://salesiq.zoho.in/widget";t=d.getElementsByTagName("script")[0];t.parentNode.insertBefore(s,t);</script>
+<body>
+<div class="hero-image">
+  <div class="hero-text">
+    <h1 style="font-size:32px">Get Your Favourite jobs At Your Finger tips</h1>
+    <p>Click on Below Button To Explore</p>
+    <button>
+        <a href = "https://www.naukri.com/online-jobs">
+    Browse Jobs
+  </a>
+</button>
+  </div>
+</div>
+</body>
+</html>
+<!-- footer start-->
+<div class="container-fluid bg-dark" style="height:150px">
+  <h4 class="text-center text-light pt-5">Svs Consultancy Online</h4>
+  <p class="text-center text-primary">&copy; ChaitanyaSoftwares</p>
+</div>

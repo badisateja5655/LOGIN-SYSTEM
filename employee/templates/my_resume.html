@@ -1,0 +1,72 @@
+{% extends 'emp_base.html' %}
+
+{% block main %}
+<div class="card shadow m-2">
+    <div class="card-body">
+       <a href="{% url 'edit_myresume' %}"class="btn btn-primary float-right btn-sm">Edit My Resume</a>
+        <h5 class="p-2 text-danger" style="border-bottom : 2px solid orange">My Resume</h5>
+
+        <div class="container-fluid">
+
+            <table class="table table-bordered">
+                <tr>
+                    <th>Name</th>
+                     <td>{{resume.name}}</td>
+                </tr>
+
+                 <tr>
+                    <th>Age</th>
+                     <td>{{resume.age}}</td>
+                </tr>
+
+
+                 <tr>
+                    <th>Graduation</th>
+                     <td>{{resume.graduation}}</td>
+                </tr>
+
+                <tr>
+                    <th>Qualification</th>
+                     <td>{{resume.qualifications}}</td>
+                </tr>
+
+                 <tr>
+                    <th>Address</th>
+                     <td>{{resume.address}}</td>
+                </tr>
+
+                 <tr>
+                    <th>B-tech Cgpa</th>
+                     <td>{{resume.btechcgpa}}</td>
+                </tr>
+
+                 <tr>
+                    <th>Experience</th>
+                     <td>{{resume.experience}}</td>
+                </tr>
+
+                <tr>
+                    <th>SSC School</th>
+                     <td>{{resume.sscschool}}</td>
+                </tr>
+
+                 <tr>
+                    <th>SSC Gpa</th>
+                     <td>{{resume.sscgpa}}</td>
+                </tr>
+
+                 <tr>
+                    <th>Inter College Name</th>
+                     <td>{{resume.intercollegename}}</td>
+                </tr>
+
+                 <tr>
+                    <th>Inter College Gpa</th>
+                     <td>{{resume.intercollegegpa}}</td>
+                </tr>
+            </table>
+
+        </div>
+    </div>
+</div>
+{% endblock %}
