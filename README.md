@@ -8,9 +8,13 @@ Programming Languages: HTML,PYTHON(DJANGO FRAMEWORK)
 DATABASE:POSTGRESQL
 
 Output:![login](https://user-images.githubusercontent.com/107356682/208462896-075afe7b-69f4-4fac-abcf-507e35c37ba7.png)
+![create_an_account](https://user-images.githubusercontent.com/107356682/209317184-4abd81cf-f627-471e-9334-ba459b27d978.png)
+![authorized_page](https://user-images.githubusercontent.com/107356682/209317223-96830153-4d11-48e5-82a7-c032e50b9367.png)
 
+![password_reset](https://user-images.githubusercontent.com/107356682/209317253-7cdcf7a9-83b6-4683-8b47-baffb8b573c1.png)
 
-   (https://user-images.githubusercontent.com/107356682/208463046-7ac371ef-ec03-4825-91e2-8675333f7390.png)
+ 
+![set_new_password](https://user-images.githubusercontent.com/107356682/209317276-4a5917ee-a470-47f3-aa7e-4c1c87d32310.png)
 
 Functionality
 Log in
