@@ -10,9 +10,7 @@ DATABASE:POSTGRESQL
 Output:![login](https://user-images.githubusercontent.com/107356682/208462896-075afe7b-69f4-4fac-abcf-507e35c37ba7.png)
 
 
-   ![create_an_account](https://user-![password_reset](https://user-images.githubusercontent.com/107356682/208463037-07f17a2f-e4b1-475e-9c1c-49aa72711b77.png)
-images.githubusercontent.com/107356682/208462939-774adcde-5ab5-45af-bb29-c49b5610a4e5.png)
-![password_change](https://user-images.githubusercontent.com/107356682/208463046-7ac371ef-ec03-4825-91e2-8675333f7390.png)
+   (https://user-images.githubusercontent.com/107356682/208463046-7ac371ef-ec03-4825-91e2-8675333f7390.png)
 
 Functionality
 Log in
